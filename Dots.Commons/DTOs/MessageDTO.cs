@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserManager.DTO
+namespace Dots.Commons.DTOs
 {
-    public enum eEntityStatus
+    public class MessageDTO
     {
-        OK = 255,
-        DELETED = 100,
-        DELETED_BY_REF = 101,
+        public string Message { get; set; }
     }
 }

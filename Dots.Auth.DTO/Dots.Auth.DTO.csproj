@@ -7,12 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Dots.Commons\Dots.Commons.csproj" />
-    <ProjectReference Include="..\UserManager.DTO\UserManager.DTO.csproj" />
   </ItemGroup>
 
 </Project>

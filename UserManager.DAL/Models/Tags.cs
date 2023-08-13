@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using UserManager.DTO;
 using Microsoft.EntityFrameworkCore;
+using Dots.Commons;
 
 namespace UserManager.DAL.Models;
 
